@@ -36,14 +36,21 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
-          {/* Profile Image Placeholder */}
+          {/* Profile Image */}
           <div className="mb-8 flex justify-center">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 p-1 shadow-2xl">
               <div className="w-full h-full rounded-full bg-primary-800 flex items-center justify-center overflow-hidden">
-                {/* EDIT: Replace with actual image or keep initials */}
-                <span className="text-4xl md:text-5xl font-heading font-bold text-white">
-                  {cvData.personal.name.split(' ').map(n => n[0]).join('')}
-                </span>
+                {cvData.personal.profileImage ? (
+                  <img
+                    src={cvData.personal.profileImage}
+                    alt={cvData.personal.name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <span className="text-4xl md:text-5xl font-heading font-bold text-white">
+                    {cvData.personal.name.split(' ').map(n => n[0]).join('')}
+                  </span>
+                )}
               </div>
             </div>
           </div>
