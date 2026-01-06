@@ -231,8 +231,8 @@ export const cvData = {
       projectValue: "€40M EPC Consortium",
       dateStart: "2023",
       dateEnd: "Present",
-      location: "Switzerland",
-      flag: "🇨🇭",
+      location: "Italy",
+      flag: "🇮🇹",
       type: "additional",
       expertise: [
         "Waste-to-Energy",
@@ -259,6 +259,7 @@ export const cvData = {
       type: "major",
       expertise: [
         "Carbon Capture",
+        "FOAK",
         "Waste-to-Energy",
         "Performance Testing",
         "Pipeline Integration",
