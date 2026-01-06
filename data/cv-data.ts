@@ -13,8 +13,8 @@ export const cvData = {
     location: "Dietikon, Zurich, Switzerland",
     nationality: "Italian National",
     linkedIn: "https://linkedin.com/in/simonedroghini", // EDIT: Add your LinkedIn URL
-    profileImage: "/profile-placeholder.jpg", // EDIT: Add your profile photo to /public
-    cvDownloadPath: "/Resume_Simone_Droghini.pdf",
+    profileImage: "/CV_Landing_Page/profile-placeholder.jpg", // EDIT: Add your profile photo to /public
+    cvDownloadPath: "/CV_Landing_Page/Resume_Simone_Droghini.pdf",
   },
 
   /* EDIT: Professional Summary */
