@@ -8,12 +8,12 @@ export const cvData = {
     name: "Simone Droghini",
     title: "Senior Project Manager / Project Director",
     tagline: "20+ Years Delivering Complex Infrastructure Projects Worldwide",
-    phone: "+41 795221522",
+    phone: "+41 795221522 / +39 3296832783",
     email: "simonedroghini@gmail.com",
     location: "Dietikon, Zurich, Switzerland",
     nationality: "Italian National",
     linkedIn: "https://www.linkedin.com/in/drogo/",
-    profileImage: "/CV_Landing_Page/profile-placeholder.jpg", // EDIT: Add your profile photo to /public
+    profileImage: "/CV_Landing_Page/profile_picture.jpg", // EDIT: Add your profile photo to /public
     cvDownloadPath: "/CV_Landing_Page/Resume_Simone_Droghini.pdf",
   },
 
@@ -231,8 +231,8 @@ export const cvData = {
       projectValue: "€40M EPC Consortium",
       dateStart: "2023",
       dateEnd: "Present",
-      location: "Switzerland",
-      flag: "🇨🇭",
+      location: "Italy",
+      flag: "🇮🇹",
       type: "additional",
       expertise: [
         "Waste-to-Energy",
@@ -259,6 +259,7 @@ export const cvData = {
       type: "major",
       expertise: [
         "Carbon Capture",
+        "FOAK",
         "Waste-to-Energy",
         "Performance Testing",
         "Pipeline Integration",
