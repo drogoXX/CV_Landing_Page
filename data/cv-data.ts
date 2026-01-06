@@ -241,6 +241,7 @@ export const cvData = {
       ],
       achievements: [
         "Led project execution strategy for a waste to energy plant",
+        "Managed the consortium agreement with the main engineering and construction leader",  
         "Developed Level 3 procurement and engineering schedules",
         "Coordinated MEP engineering outsourcing and supplier management",
         "Established monitoring protocols for internal engineering and manufacturing",
