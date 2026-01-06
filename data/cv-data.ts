@@ -12,7 +12,7 @@ export const cvData = {
     email: "simonedroghini@gmail.com",
     location: "Dietikon, Zurich, Switzerland",
     nationality: "Italian National",
-    linkedIn: "https://linkedin.com/in/simonedroghini", // EDIT: Add your LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/drogo/",
     profileImage: "/CV_Landing_Page/profile-placeholder.jpg", // EDIT: Add your profile photo to /public
     cvDownloadPath: "/CV_Landing_Page/Resume_Simone_Droghini.pdf",
   },
