@@ -1,0 +1,344 @@
+/* ==========================================================================
+   CV DATA FILE - EDIT THIS FILE TO UPDATE YOUR CV CONTENT
+   ========================================================================== */
+
+export const cvData = {
+  /* EDIT: Personal Information */
+  personal: {
+    name: "Simone Droghini",
+    title: "Senior Project Manager / Project Director",
+    tagline: "20+ Years Delivering Complex Infrastructure Projects Worldwide",
+    phone: "+41 795221522",
+    email: "simonedroghini@gmail.com",
+    location: "Dietikon, Zurich, Switzerland",
+    nationality: "Italian National",
+    linkedIn: "https://linkedin.com/in/simonedroghini", // EDIT: Add your LinkedIn URL
+    profileImage: "/profile-placeholder.jpg", // EDIT: Add your profile photo to /public
+    cvDownloadPath: "/Resume_Simone_Droghini.pdf",
+  },
+
+  /* EDIT: Professional Summary */
+  summary: `Senior Project Director / Manager with 20+ years of international experience delivering complex infrastructure projects including pharmaceutical warehouses, green field developments, and temperature-controlled logistics facilities. Proven expertise managing projects exceeding €100M with specialization in GMP-compliant environments, cold chain logistics, and HVAC for controlled atmospheres. Extensive experience establishing temporary construction facilities in Nordic environments (Denmark, Finland).`,
+
+  /* EDIT: Key Statistics */
+  statistics: [
+    { label: "Total Career Project Value", value: ">€20 Billion" },
+    { label: "Direct Management Responsibility", value: ">€2 Billion" },
+    { label: "Team Leadership", value: "Up to 40 Engineers" },
+    { label: "Green Field Projects", value: "5+" },
+    { label: "Geographic Experience", value: "10+ Countries" },
+    { label: "Safety Record", value: "Zero Lost-Time Incidents" },
+  ],
+
+  /* EDIT: Core Competencies / Skills */
+  skills: [
+    {
+      category: "Pharma & Logistics",
+      icon: "pharma",
+      competencies: [
+        "Pharmaceutical & Logistics Infrastructure",
+        "Green Field Project Development (€100M+)",
+        "Cold Chain & Temperature-Controlled Facilities (-50°C to +25°C)",
+        "Freezer Farm & Cold Storage Design",
+        "GMP Compliance & Pharmaceutical Validation (IQ/OQ/PQ)",
+        "Cleanroom & Controlled Environment Design",
+      ],
+    },
+    {
+      category: "Engineering & Technical",
+      icon: "engineering",
+      competencies: [
+        "HVAC Systems for Controlled Environments",
+        "Technical & Engineering Leadership",
+        "MEP Engineering Management",
+        "Building Services Integration (HVAC, Sprinkler, Utilities)",
+        "Temporary Construction Facility Planning",
+      ],
+    },
+    {
+      category: "Project Management",
+      icon: "management",
+      competencies: [
+        "Project Management Excellence",
+        "EPCM/EPC Project Delivery",
+        "Multi-Stakeholder Coordination",
+        "Schedule Management (Primavera P6, Level 2-5 Scheduling)",
+        "Risk & Change Management",
+        "Contract & Claims Management",
+      ],
+    },
+  ],
+
+  /* EDIT: Professional Experience - Listed from earliest to most recent */
+  experience: [
+    {
+      id: 1,
+      title: "Construction Manager - Conventional Island",
+      company: "ENEL INGEGNERIA E RICERCA",
+      project: "MOCHOVCE Nuclear Power Plant Units 3&4",
+      projectValue: "€6B Project (>€500M Direct)",
+      dateStart: "2013",
+      dateEnd: "2019",
+      location: "Slovakia",
+      flag: "🇸🇰",
+      type: "major",
+      expertise: [
+        "Nuclear Construction",
+        "HVAC Systems",
+        "Team Leadership",
+        "Safety Management",
+      ],
+      achievements: [
+        "Led multidisciplinary team of 40 engineers for complex technological packages",
+        "Managed construction of logistics facilities supporting nuclear plant operations",
+        "Coordinated installation of sophisticated HVAC systems for controlled environments",
+        "Managed HVAC systems for both Nuclear and Conventional Islands including temperature-controlled areas and cleanroom zones",
+        "Maintained zero accidents over 4-year period through enhanced safety protocols",
+        "Led team of 20 local engineers to meet safety, quality, and budget requirements",
+      ],
+    },
+    {
+      id: 2,
+      title: "Engineering Project Manager",
+      company: "ANDRITZ AG",
+      project: "Tokushima Tsuda Biomass Power Plant",
+      projectValue: "€60M EP Contract",
+      dateStart: "2019",
+      dateEnd: "2021",
+      location: "Austria",
+      flag: "🇦🇹",
+      type: "additional",
+      expertise: [
+        "Engineering Management",
+        "Procurement Strategy",
+        "Change Management",
+      ],
+      achievements: [
+        "Managed team of 20+ engineers ensuring on-time milestone delivery",
+        "Restructured procurement strategy for key equipment packages",
+        "Implemented design change management processes with full client approval",
+        "Led critical engineering decisions affecting overall project execution",
+      ],
+    },
+    {
+      id: 3,
+      title: "Project Manager - Reactor Building",
+      company: "FENNOVOIMA",
+      project: "FENNOVOIMA HANHIKIVI Nuclear Power Plant",
+      projectValue: "€8B Project (>€500M Direct)",
+      dateStart: "2021",
+      dateEnd: "2021",
+      location: "Finland",
+      flag: "🇫🇮",
+      type: "major",
+      expertise: [
+        "Nuclear Construction",
+        "Arctic Construction",
+        "Temporary Facilities",
+        "Workforce Management",
+      ],
+      achievements: [
+        "Managed temporary construction infrastructure for remote Arctic site with limited existing services",
+        "Coordinated establishment of construction village for 500+ international workforce",
+        "Implemented temporary utilities and logistics for extreme weather conditions (-30°C winter temperatures)",
+        "Developed material staging areas and equipment storage facilities",
+        "Managed temporary road access and heavy equipment mobilization to remote location",
+        "Coordinated accommodation, catering, and welfare facilities for multicultural workforce",
+      ],
+    },
+    {
+      id: 4,
+      title: "Construction Manager",
+      company: "TGE-GAS ENGINEERING",
+      project: "LNG Terminal Extension",
+      projectValue: "€120M EPC Contract (€40M Direct)",
+      dateStart: "2021",
+      dateEnd: "2022",
+      location: "Germany",
+      flag: "🇩🇪",
+      type: "additional",
+      expertise: [
+        "Cryogenic Systems",
+        "LNG Operations",
+        "Safety Protocols",
+        "Commissioning",
+      ],
+      achievements: [
+        "Coordinated multidisciplinary scope for cryogenic LNG storage systems (-162°C)",
+        "Developed contractor schedules and resource plans for mechanical, electrical, and I&C disciplines",
+        "Implemented site arrangement planning for materials storage and prefabrication areas",
+        "Developed commissioning strategies for integration with existing systems",
+        "Zero safety incidents through rigorous LNG-specific safety protocols",
+      ],
+    },
+    {
+      id: 5,
+      title: "Project Construction Manager - Warehouse & Logistics Facility",
+      company: "FUJIFILM DIOSYNTH BIOTECHNOLOGIES",
+      project: "FLUOR North Star Project",
+      projectValue: "$1.6B PCM ($50M Direct Responsibility)",
+      dateStart: "2022",
+      dateEnd: "2023",
+      location: "Denmark",
+      flag: "🇩🇰",
+      type: "major",
+      expertise: [
+        "Pharmaceutical Warehouse",
+        "Cold Chain",
+        "GMP Compliance",
+        "Winter Construction",
+      ],
+      achievements: [
+        "Led engineering and construction of pharmaceutical-grade warehouse facility with temperature-controlled zones",
+        "Implemented GMP-compliant design and construction meeting pharmaceutical validation requirements",
+        "Managed CSA (Civil/Structural/Architectural) and MEP engineering for warehouse and support facilities",
+        "Established comprehensive temporary construction village for 100+ international workers",
+        "Managed winter construction protocols in harsh Danish climate (temperatures to -15°C)",
+        "Zero lost-time incidents through rigorous HSE management over 18-month construction period",
+      ],
+    },
+    {
+      id: 6,
+      title: "Project Director",
+      company: "KANADEVIA INOVA AG",
+      project: "ROME Energy from Waste Project",
+      projectValue: "€400M EPC Consortium",
+      dateStart: "2023",
+      dateEnd: "Present",
+      location: "Italy",
+      flag: "🇮🇹",
+      type: "major",
+      expertise: [
+        "Waste-to-Energy",
+        "Green Field Development",
+        "MEP Coordination",
+        "Project Strategy",
+      ],
+      achievements: [
+        "Project Director for 600,000 ton/year waste-to-energy facility including extensive warehouse and logistics infrastructure",
+        "Developed comprehensive project execution strategy from green field site through mechanical completion",
+        "Created Level 2 construction baseline and Level 3 procurement/engineering schedules",
+        "Managed advanced MEP systems coordination",
+        "Established monitoring systems for internal engineering and supplier manufacturing",
+        "Green Field Experience: Full site development from permit acquisition through construction",
+      ],
+    },
+    {
+      id: 7,
+      title: "Senior Project Manager",
+      company: "KANADEVIA INOVA AG",
+      project: "PADOVA Incinerator Project",
+      projectValue: "€40M EPC Consortium",
+      dateStart: "2023",
+      dateEnd: "Present",
+      location: "Switzerland",
+      flag: "🇨🇭",
+      type: "additional",
+      expertise: [
+        "Waste-to-Energy",
+        "MEP Coordination",
+        "Supplier Management",
+      ],
+      achievements: [
+        "Led project execution strategy for a waste to energy plant",
+        "Developed Level 3 procurement and engineering schedules",
+        "Coordinated MEP engineering outsourcing and supplier management",
+        "Established monitoring protocols for internal engineering and manufacturing",
+      ],
+    },
+    {
+      id: 8,
+      title: "Deputy Project Director",
+      company: "KANADEVIA INOVA AG",
+      project: "PROTOS Energy Recovery Facility with Carbon Capture",
+      projectValue: "€400M EPC Contract",
+      dateStart: "2025",
+      dateEnd: "Present",
+      location: "United Kingdom",
+      flag: "🇬🇧",
+      type: "major",
+      expertise: [
+        "Carbon Capture",
+        "Waste-to-Energy",
+        "Performance Testing",
+        "Pipeline Integration",
+      ],
+      achievements: [
+        "Managing EPC contract for a 380,000 ton/year CO2 carbon capture plant serving a 400,000 ton/year energy recovery facility",
+        "Coordinating integration of innovative carbon capture technology with waste-to-energy operations",
+        "Managing completion activities and performance testing for the integrated plants",
+        "Coordinating CO2 pipeline connection to HyNet network for transport to Liverpool Bay storage fields",
+      ],
+    },
+  ],
+
+  /* EDIT: Education & Certifications */
+  education: [
+    {
+      degree: "Master's in Mechanical Engineering",
+      institution: "Roma Tre University",
+      location: "Rome, Italy",
+      year: "2005",
+      type: "degree",
+    },
+    {
+      degree: "Executive Master in Nuclear Plant Construction Management (e-NPCM)",
+      institution: "MIP School of Management - Politecnico di Milano",
+      location: "Milan, Italy",
+      year: "2012",
+      type: "degree",
+    },
+    {
+      degree: "PMP/PMI Certification",
+      institution: "Project Management Institute",
+      location: "",
+      year: "2022",
+      type: "certification",
+    },
+    {
+      degree: "Contract, Delays and Claim in Primavera P6",
+      institution: "Udemy - CEM Solutions",
+      location: "",
+      year: "2025",
+      type: "certification",
+    },
+    {
+      degree: "Basic Good Manufacturing Practice (GMP)",
+      institution: "Udemy",
+      location: "",
+      year: "2025",
+      type: "certification",
+    },
+    {
+      degree: "Medical Device Process Validation, ISO 13485 (IQ, OQ and PQ)",
+      institution: "Udemy",
+      location: "",
+      year: "2025",
+      type: "certification",
+    },
+    {
+      degree: "Systemic Problem Solving (SPS)",
+      institution: "Udemy",
+      location: "",
+      year: "2025",
+      type: "certification",
+    },
+  ],
+
+  /* EDIT: Languages */
+  languages: [
+    { language: "Italian", level: "Native Speaker", proficiency: 100 },
+    { language: "English", level: "Fluent", proficiency: 95 },
+    { language: "Russian", level: "Basic", proficiency: 25 },
+    { language: "Slovak", level: "Basic", proficiency: 25 },
+  ],
+
+  /* EDIT: Additional Information */
+  additionalInfo: {
+    availability: "Immediate",
+    workAuthorization: "EU Citizen with Swiss work permit (Permit B)",
+    willingnessToRelocate: "Already based in Zurich region (Dietikon)",
+  },
+};
+
+export type CVData = typeof cvData;
