@@ -173,7 +173,7 @@ export const cvData = {
     },
     {
       id: 5,
-      title: "Project Construction Manager - Warehouse & Logistics Facility",
+      title: "Project Construction Manager",
       company: "FUJIFILM DIOSYNTH BIOTECHNOLOGIES",
       project: "FLUOR North Star Project",
       projectValue: "$1.6B PCM ($50M Direct Responsibility)",
