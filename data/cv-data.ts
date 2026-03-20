@@ -14,7 +14,7 @@ export const cvData = {
     nationality: "Italian National",
     linkedIn: "https://www.linkedin.com/in/drogo/",
     profileImage: "/CV_Landing_Page/profile_picture.jpg", // EDIT: Add your profile photo to /public
-    cvDownloadPath: "/CV_Landing_Page/Resume_Simone_Droghini.pdf",
+    cvDownloadPath: "/CV_Landing_Page/public/Resume_Simone_Droghini.pdf",
   },
 
   /* EDIT: Professional Summary */
@@ -23,7 +23,7 @@ export const cvData = {
   /* EDIT: Key Statistics */
   statistics: [
     { label: "Total Career Project Value", value: ">€20 Billion" },
-    { label: "Direct Management Responsibility", value: ">€2 Billion" },
+    { label: "Direct Management Responsibility", value: ">€1 Billion" },
     { label: "Team Leadership", value: "Up to 40 Engineers" },
     { label: "Green Field Projects", value: "5+" },
     { label: "Geographic Experience", value: "10+ Countries" },
@@ -62,7 +62,7 @@ export const cvData = {
         "Project Management Excellence",
         "EPCM/EPC Project Delivery",
         "Multi-Stakeholder Coordination",
-        "Schedule Management (Primavera P6, Level 2-5 Scheduling)",
+        "Schedule and Progress Management",
         "Risk & Change Management",
         "Contract & Claims Management",
       ],
