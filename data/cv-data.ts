@@ -23,7 +23,7 @@ export const cvData = {
   /* EDIT: Key Statistics */
   statistics: [
     { label: "Total Career Project Value", value: ">€20 Billion" },
-    { label: "Direct Management Responsibility", value: ">€2 Billion" },
+    { label: "Direct Management Responsibility", value: ">€1 Billion" },
     { label: "Team Leadership", value: "Up to 40 Engineers" },
     { label: "Green Field Projects", value: "5+" },
     { label: "Geographic Experience", value: "10+ Countries" },
@@ -62,7 +62,7 @@ export const cvData = {
         "Project Management Excellence",
         "EPCM/EPC Project Delivery",
         "Multi-Stakeholder Coordination",
-        "Schedule Management (Primavera P6, Level 2-5 Scheduling)",
+        "Schedule and Progress Management",
         "Risk & Change Management",
         "Contract & Claims Management",
       ],
@@ -164,7 +164,7 @@ export const cvData = {
         "Commissioning",
       ],
       achievements: [
-        "Coordinated multidisciplinary scope for cryogenic LNG storage systems (-162°C)",
+        "Coordinated multidisciplinary scope for cryogenic LNG storage systems",
         "Developed contractor schedules and resource plans for mechanical, electrical, and I&C disciplines",
         "Implemented site arrangement planning for materials storage and prefabrication areas",
         "Developed commissioning strategies for integration with existing systems",
@@ -191,7 +191,7 @@ export const cvData = {
       achievements: [
         "Led engineering and construction of pharmaceutical-grade warehouse facility with temperature-controlled zones",
         "Implemented GMP-compliant design and construction meeting pharmaceutical validation requirements",
-        "Managed CSA (Civil/Structural/Architectural) and MEP engineering for warehouse and support facilities",
+        "Managed CSA and MEP engineering for warehouse and support facilities",
         "Established comprehensive temporary construction village for 100+ international workers",
         "Managed winter construction protocols in harsh Danish climate (temperatures to -15°C)",
         "Zero lost-time incidents through rigorous HSE management over 18-month construction period",
