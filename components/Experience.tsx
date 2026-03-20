@@ -23,7 +23,7 @@ export default function Experience() {
           <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-primary-200 -translate-x-1/2" />
 
           <div className="space-y-12">
-            {cvData.experience.map((exp, index) => (
+            {[...cvData.experience].reverse().map((exp, index) => (
               <div
                 key={exp.id}
                 className={`relative lg:grid lg:grid-cols-2 lg:gap-8 ${
