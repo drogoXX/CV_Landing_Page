@@ -14,7 +14,7 @@ export const cvData = {
     nationality: "Italian National",
     linkedIn: "https://www.linkedin.com/in/drogo/",
     profileImage: "/CV_Landing_Page/profile_picture.jpg", // EDIT: Add your profile photo to /public
-    cvDownloadPath: "/CV_Landing_Page/Resume Simone Droghini.pdf",
+    cvDownloadPath: "/CV_Landing_Page/Resume_Simone_Droghini.pdf",
   },
 
   /* EDIT: Professional Summary */
