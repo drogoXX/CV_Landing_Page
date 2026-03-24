@@ -18,12 +18,12 @@ export const cvData = {
   },
 
   /* EDIT: Professional Summary */
-  summary: `Senior Project Director / Manager with 20+ years of international experience delivering complex, mission-critical infrastructure projects across power, nuclear, biotechnology, and industrial sectors. Proven expertise managing EPC/EPCM projects exceeding €400M with deep specialization in MEP engineering, HVAC for controlled environments, power distribution systems, and green field site development. Transferable skills in critical facility construction — including temperature-controlled environments, redundancy planning, commissioning, and regulatory compliance — directly applicable to data center and hyperscale infrastructure delivery.`,
+  summary: `Senior Project Director / Manager with 20+ years of international experience delivering complex, mission-critical infrastructure projects across power, nuclear, biotechnology, and industrial sectors. Proven expertise managing EPC/EPCM scope exceeding €500 M with deep specialization in MEP engineering, HVAC for controlled environments, power distribution systems, and green field site development. Transferable skills in critical facility construction — including temperature-controlled environments, redundancy planning, commissioning, and regulatory compliance.`,
 
   /* EDIT: Key Statistics */
   statistics: [
     { label: "Total Career Project Value", value: ">€20 Billion" },
-    { label: "Direct Management Responsibility", value: ">€1 Billion" },
+    { label: "Direct Management Responsibility", value: ">€0.5 Billion" },
     { label: "Team Leadership", value: "Up to 40 Engineers" },
     { label: "Green Field Projects", value: "5+" },
     { label: "Geographic Experience", value: "10+ Countries" },
@@ -36,10 +36,9 @@ export const cvData = {
       category: "Critical Infrastructure & Controlled Environments",
       icon: "infrastructure",
       competencies: [
-        "Mission-Critical Facility Development (Green Field, €100M+)",
+        "Mission-Critical Facility Development (Green Field, €50M+)",
         "Temperature-Controlled & Precision Environment Design (-50°C to +25°C)",
         "HVAC Systems for Controlled Atmospheres & Cooling",
-        "Cleanroom & GMP-Compliant Environment Design (IQ/OQ/PQ)",
         "Power Redundancy & Continuous Operations Planning",
         "Commissioning & Performance Testing for Integrated Systems",
       ],
@@ -60,8 +59,8 @@ export const cvData = {
       category: "Project & Construction Management",
       icon: "management",
       competencies: [
-        "EPC/EPCM Project Delivery (up to €400M+)",
-        "Green Field Site Development (Permits through Handover)",
+        "EPC/EPCM Project Delivery (> €500M+)",
+        "Green Field Site Development",
         "Multi-Stakeholder & Consortium Coordination",
         "Schedule, Progress & Resource Management (Primavera P6)",
         "Risk, Change & Claims Management",
