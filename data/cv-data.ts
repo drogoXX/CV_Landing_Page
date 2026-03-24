@@ -141,9 +141,8 @@ export const cvData = {
         "Led multidisciplinary team of 40 engineers for complex technological packages",
         "Managed construction of logistics facilities supporting nuclear plant operations",
         "Coordinated installation of sophisticated HVAC systems for controlled environments",
-        "Managed HVAC systems for both Nuclear and Conventional Islands including temperature-controlled areas and cleanroom zones",
+        "Managed and integrated HVAC, Fire Detection and Suppression systems for both Nuclear and Conventional Islands",
         "Maintained zero accidents over 4-year period through enhanced safety protocols",
-        "Led team of 20 local engineers to meet safety, quality, and budget requirements",
       ],
     },
     {
