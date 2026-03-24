@@ -6,7 +6,7 @@ export const cvData = {
   /* EDIT: Personal Information */
   personal: {
     name: "Simone Droghini",
-    title: "Senior Project Manager / Project Director",
+    title: "Senior Project Manager",
     tagline: "20+ Years Delivering Mission-Critical Infrastructure Projects Worldwide",
     phone: "+41 795221522 / +39 3296832783",
     email: "simonedroghini@gmail.com",
@@ -18,12 +18,12 @@ export const cvData = {
   },
 
   /* EDIT: Professional Summary */
-  summary: `Senior Project Director / Manager with 20+ years of international experience delivering complex, mission-critical infrastructure projects across power, nuclear, biotechnology, and industrial sectors. Proven expertise managing EPC/EPCM projects exceeding €400M with deep specialization in MEP engineering, HVAC for controlled environments, power distribution systems, and green field site development. Transferable skills in critical facility construction — including temperature-controlled environments, redundancy planning, commissioning, and regulatory compliance — directly applicable to data center and hyperscale infrastructure delivery.`,
+  summary: `Senior Project Manager with 20+ years of international experience delivering complex, mission-critical infrastructure projects across power, nuclear, biotechnology, and industrial sectors. Proven expertise managing EPC/EPCM scope exceeding €500 M with deep specialization in MEP engineering, HVAC for controlled environments, power distribution systems, and green field site development.`,
 
   /* EDIT: Key Statistics */
   statistics: [
     { label: "Total Career Project Value", value: ">€20 Billion" },
-    { label: "Direct Management Responsibility", value: ">€1 Billion" },
+    { label: "Direct Management Responsibility", value: ">€0.5 Billion" },
     { label: "Team Leadership", value: "Up to 40 Engineers" },
     { label: "Green Field Projects", value: "5+" },
     { label: "Geographic Experience", value: "10+ Countries" },
@@ -36,10 +36,9 @@ export const cvData = {
       category: "Critical Infrastructure & Controlled Environments",
       icon: "infrastructure",
       competencies: [
-        "Mission-Critical Facility Development (Green Field, €100M+)",
+        "Mission-Critical Facility Development (Green Field, €50M+)",
         "Temperature-Controlled & Precision Environment Design (-50°C to +25°C)",
         "HVAC Systems for Controlled Atmospheres & Cooling",
-        "Cleanroom & GMP-Compliant Environment Design (IQ/OQ/PQ)",
         "Power Redundancy & Continuous Operations Planning",
         "Commissioning & Performance Testing for Integrated Systems",
       ],
@@ -60,8 +59,8 @@ export const cvData = {
       category: "Project & Construction Management",
       icon: "management",
       competencies: [
-        "EPC/EPCM Project Delivery (up to €400M+)",
-        "Green Field Site Development (Permits through Handover)",
+        "EPC/EPCM Project Delivery (> €500M+)",
+        "Green Field Site Development",
         "Multi-Stakeholder & Consortium Coordination",
         "Schedule, Progress & Resource Management (Primavera P6)",
         "Risk, Change & Claims Management",
@@ -142,9 +141,8 @@ export const cvData = {
         "Led multidisciplinary team of 40 engineers for complex technological packages",
         "Managed construction of logistics facilities supporting nuclear plant operations",
         "Coordinated installation of sophisticated HVAC systems for controlled environments",
-        "Managed HVAC systems for both Nuclear and Conventional Islands including temperature-controlled areas and cleanroom zones",
+        "Managed and integrated HVAC, Fire Detection and Suppression systems for both Nuclear and Conventional Islands",
         "Maintained zero accidents over 4-year period through enhanced safety protocols",
-        "Led team of 20 local engineers to meet safety, quality, and budget requirements",
       ],
     },
     {
@@ -249,7 +247,7 @@ export const cvData = {
     },
     {
       id: 8,
-      title: "Project Director",
+      title: "Senior Project Manager",
       company: "KANADEVIA INOVA AG",
       project: "ROME Energy from Waste Project",
       projectValue: "€400M EPC Consortium",
