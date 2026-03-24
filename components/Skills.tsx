@@ -36,7 +36,7 @@ export default function Skills() {
             Core Competencies
           </h2>
           <p className="text-neutral-600 max-w-2xl mx-auto">
-            Specialized expertise in critical infrastructure, MEP engineering, and large-scale project delivery — directly transferable to data center and hyperscale facility construction
+            Specialized expertise in critical infrastructure, MEP engineering, and large-scale project delivery
           </p>
           <div className="w-20 h-1 bg-primary-600 mx-auto rounded-full mt-4" />
         </div>
