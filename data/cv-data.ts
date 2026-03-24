@@ -18,7 +18,7 @@ export const cvData = {
   },
 
   /* EDIT: Professional Summary */
-  summary: `Senior Project Manager with 20+ years of international experience delivering complex, mission-critical infrastructure projects across power, nuclear, biotechnology, and industrial sectors. Proven expertise managing EPC/EPCM scope exceeding €500 M with deep specialization in MEP engineering, HVAC for controlled environments, power distribution systems, and green field site development. Transferable skills in critical facility construction — including temperature-controlled environments, redundancy planning, commissioning, and regulatory compliance.`,
+  summary: `Senior Project Manager with 20+ years of international experience delivering complex, mission-critical infrastructure projects across power, nuclear, biotechnology, and industrial sectors. Proven expertise managing EPC/EPCM scope exceeding €500 M with deep specialization in MEP engineering, HVAC for controlled environments, power distribution systems, and green field site development.`,
 
   /* EDIT: Key Statistics */
   statistics: [
