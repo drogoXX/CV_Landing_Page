@@ -6,7 +6,7 @@ export const cvData = {
   /* EDIT: Personal Information */
   personal: {
     name: "Simone Droghini",
-    title: "Senior Project Manager / Project Director",
+    title: "Senior Project Manager",
     tagline: "20+ Years Delivering Mission-Critical Infrastructure Projects Worldwide",
     phone: "+41 795221522 / +39 3296832783",
     email: "simonedroghini@gmail.com",
@@ -18,7 +18,7 @@ export const cvData = {
   },
 
   /* EDIT: Professional Summary */
-  summary: `Senior Project Director / Manager with 20+ years of international experience delivering complex, mission-critical infrastructure projects across power, nuclear, biotechnology, and industrial sectors. Proven expertise managing EPC/EPCM scope exceeding €500 M with deep specialization in MEP engineering, HVAC for controlled environments, power distribution systems, and green field site development. Transferable skills in critical facility construction — including temperature-controlled environments, redundancy planning, commissioning, and regulatory compliance.`,
+  summary: `Senior Project Manager with 20+ years of international experience delivering complex, mission-critical infrastructure projects across power, nuclear, biotechnology, and industrial sectors. Proven expertise managing EPC/EPCM scope exceeding €500 M with deep specialization in MEP engineering, HVAC for controlled environments, power distribution systems, and green field site development. Transferable skills in critical facility construction — including temperature-controlled environments, redundancy planning, commissioning, and regulatory compliance.`,
 
   /* EDIT: Key Statistics */
   statistics: [
@@ -247,7 +247,7 @@ export const cvData = {
     },
     {
       id: 8,
-      title: "Project Director",
+      title: "Senior Project Manager",
       company: "KANADEVIA INOVA AG",
       project: "ROME Energy from Waste Project",
       projectValue: "€400M EPC Consortium",
