@@ -18,7 +18,6 @@
 @layer components {
   .micro-label {
     @apply text-micro uppercase text-lambo-ash;
-    letter-spacing: 0.225px;
   }
 }
 
@@ -28,6 +27,9 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
   *,
   *::before,
   *::after {
