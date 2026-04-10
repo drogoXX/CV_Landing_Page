@@ -20,13 +20,10 @@ export default function Summary() {
         </p>
 
         {/* Statistics row */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 border-t border-lambo-charcoal">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-px bg-lambo-charcoal border border-lambo-charcoal">
           {cvData.statistics.map((stat, index) => (
-            <div
-              key={index}
-              className="px-6 py-8 lg:border-r border-b lg:border-b-0 border-lambo-charcoal last:border-r-0"
-            >
-              <p className="text-section text-lambo-gold font-normal leading-none mb-3">
+            <div key={index} className="bg-lambo-black px-6 py-8">
+              <p className="text-subsection text-lambo-gold font-normal mb-3 break-words">
                 {stat.value}
               </p>
               <p className="micro-label">{stat.label.toUpperCase()}</p>
