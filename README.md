@@ -10,15 +10,15 @@ A professional, minimalist CV/resume landing page built with Next.js and Tailwin
 - Single-page application
 - Static export for GitHub Pages compatibility
 - Easy content customization via data file
-- Professional blue-gray color scheme
-- Subtle micro-interactions and hover states
+- Dark editorial theme — pure black canvas with Lamborghini Gold accent
+- Color-only hover transitions (no transforms, no scale)
 
 ## Sections
 
 1. **Hero** - Professional headline, tagline, and CTA buttons
 2. **Professional Summary** - Executive summary with key statistics
-3. **Experience Timeline** - Chronological work history with achievements
-4. **Core Competencies** - Categorized skills with visual indicators
+3. **Experience** - Chronological work history with achievements and project values
+4. **Core Competencies** - Categorized skills and languages
 5. **Education & Certifications** - Academic and professional qualifications
 6. **Contact** - Contact information and availability status
 
@@ -27,7 +27,7 @@ A professional, minimalist CV/resume landing page built with Next.js and Tailwin
 - **Framework**: Next.js 14 with App Router
 - **Styling**: Tailwind CSS
 - **Language**: TypeScript
-- **Fonts**: Inter (body) & Poppins (headings) via Google Fonts
+- **Fonts**: Space Grotesk (single typeface) via Google Fonts
 - **Deployment**: GitHub Pages via GitHub Actions
 
 ## Getting Started
