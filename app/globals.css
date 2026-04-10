@@ -2,100 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base styles */
 @layer base {
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-white text-neutral-900;
-    font-family: 'Inter', system-ui, sans-serif;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: 'Poppins', system-ui, sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
-/* Custom utility classes */
-@layer utilities {
-  .font-heading {
-    font-family: 'Poppins', system-ui, sans-serif;
-  }
-
-  .font-sans {
-    font-family: 'Inter', system-ui, sans-serif;
-  }
-
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-/* Custom component styles */
 @layer components {
-  /* Smooth transitions for all interactive elements */
-  .transition-smooth {
-    @apply transition-all duration-300 ease-in-out;
-  }
-
-  /* Card hover effect */
-  .card-hover {
-    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
-  }
-
-  /* Gradient text */
-  .gradient-text {
-    @apply bg-gradient-to-r from-primary-600 to-primary-800 bg-clip-text text-transparent;
-  }
-
-  /* Section padding */
-  .section-padding {
-    @apply py-16 md:py-20 lg:py-24;
-  }
-
-  /* Container */
-  .container-custom {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  .micro-label {
+    @apply text-micro uppercase text-lambo-ash;
+    letter-spacing: 0.225px;
   }
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #c4c4c4;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #a0a0a0;
-}
-
-/* Selection color */
 ::selection {
-  background-color: rgba(37, 99, 235, 0.2);
-  color: inherit;
+  background-color: #FFC000;
+  color: #000000;
 }
 
-/* Focus styles for accessibility */
-:focus-visible {
-  @apply outline-2 outline-offset-2 outline-primary-500;
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0s !important;
+    animation-duration: 0s !important;
+  }
 }
 
-/* Print styles */
 @media print {
   .no-print {
     display: none !important;
